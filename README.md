@@ -1,4 +1,4 @@
-# WORKSHOP JUNIFEUP 2023
+# WORKSHOP JUNIFEUP
 
 Este documento procura explicar como se pode criar, de raíz, sem se utilizar um template pré-definido, um projeto em
 React com uma configuração simpista.
