@@ -17,7 +17,7 @@ export const useRepoInitHelper = () => {
       id: '2',
       title: 'Requisitos para instalação',
       content:
-        'O projeto foi criado com o Node.js v20.18.2 e com o npm v10.8.2, mas pode ser usada uma versão mais recente, se necessrio.',
+        'O projeto foi criado com o Node.js v20.18.0 e com o npm v10.8.2, mas pode ser usada uma versão mais recente, se necessrio.',
       children: (
         <>
           <div className="flex flex-row gap-6 my-3">
@@ -26,7 +26,7 @@ export const useRepoInitHelper = () => {
           </div>
           <BlogComponents.Link
             href="https://nodejs.org/download/release/v20.18.0/"
-            label="Download Node.js v20.18.2 e npm v10.8.2"
+            label="Download Node.js v20.18.0 e npm v10.8.2"
             hasIcon
           />
         </>

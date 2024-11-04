@@ -23,9 +23,9 @@ const moduleConfig = {
       use: ['url-loader'],
     },
     {
-      test: /\.css$/i,
-      include: path.resolve(__dirname, 'src'),
+      test: /\.(css)$/i,
       use: ['style-loader', 'css-loader', 'postcss-loader'],
+      include: [/node_modules/, path.resolve(__dirname, 'src')],
     },
   ],
 };
