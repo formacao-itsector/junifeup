@@ -7,7 +7,7 @@ export const useRepoInitHelper = () => {
   const [articles, setArticles] = useState<BlogPostProps[]>([
     {
       id: '1',
-      title: 'WORKSHOP JUNIFEUP 2023',
+      title: 'WORKSHOP JUNIFEUP',
       content:
         'Este documento procura explicar como se pode criar, de raíz, sem se utilizar um template pré-definido, um projeto em React com uma configuração simpista.',
       visibility: true,

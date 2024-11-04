@@ -69,12 +69,13 @@ const PropsExample = `import React from 'react';
 const StateExample = `import React, { useState } from 'react';
 
 export const Example() {
-  // Declaramos um state com o nome "count" e o inicializamos com 0
+  // Declaramos um state com o nome "count" inicializado como 0
   const [count, setCount] = useState(0);
 
   return (
     <div>
       <p>You clicked {count} times</p>
+      {/* Event Listener para incrementar o state (count) */}
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
