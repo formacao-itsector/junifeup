@@ -9,11 +9,11 @@ export const Header: React.FC = () => {
 
   const titles: Record<Paths | string, { title: string; enabled: boolean }> = {
     [Paths.reactIntro]: { title: 'Intro', enabled: true },
-    [Paths.reactHooks]: { title: 'Hooks', enabled: true },
+    [Paths.reactBasics]: { title: 'React Basics', enabled: true },
     [Paths.reactPropsState]: { title: 'Props & State', enabled: true },
+    [Paths.reactHooks]: { title: 'Hooks', enabled: true },
     [Paths.reactTypescript]: { title: 'Typescript', enabled: true },
     [Paths.reactState]: { title: 'State Management', enabled: true },
-    [Paths.reactBasics]: { title: 'React Basics', enabled: true },
     [Paths.reactAdvanced]: { title: 'Debug & Performance', enabled: true },
   };
 
