@@ -14,5 +14,5 @@ export const Subtitle = ({ content, style }: SharedTypographyProps) => {
 };
 
 export const Text = ({ content, style }: SharedTypographyProps) => {
-  return <text className={style ? style : 'leading-snug text-zinc-400 indent-1 pt-3'}>{content}</text>;
+  return <p className={style ? style : 'leading-snug text-zinc-400 indent-1 pt-3'}>{content}</p>;
 };

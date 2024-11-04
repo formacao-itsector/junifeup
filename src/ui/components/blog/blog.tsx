@@ -17,9 +17,9 @@ export interface BlogPostProps {
 export const Blog: React.FC<BlogProps> = ({ blogEntries, handleArticleVisibilityOnClick }) => {
   return (
     <div className="flex flex-col gap-3">
-      {blogEntries.map((entry) => {
+      {blogEntries.map((entry, index) => {
         return (
-          <>
+          <div key={index}>
             {!entry.hideFlag && (
               <div className="flex flex-row">
                 {entry.title && <BlogComponents.Section content={entry.title} />}
@@ -43,7 +43,7 @@ export const Blog: React.FC<BlogProps> = ({ blogEntries, handleArticleVisibility
                 </div>
               </div>
             )}
-          </>
+          </div>
         );
       })}
     </div>

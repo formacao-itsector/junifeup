@@ -1,8 +1,8 @@
-import create from 'zustand';
 import { devtools, persist } from 'zustand/middleware';
 import { CoreStore, CoreStoreActions, CoreStoreState } from './core.types';
 import { Anything, LanguageEnum, Paths, ThemeEnum } from '@types';
 import { produce } from 'immer';
+import { create } from 'zustand';
 
 const initialState: CoreStoreState = {
   current_path: Paths.root,
