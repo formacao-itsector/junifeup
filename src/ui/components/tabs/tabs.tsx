@@ -9,7 +9,7 @@ interface TabsProps {
 export const Tabs: React.FC<TabsProps> = ({ tabs, onClick, currentTab }) => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-2 mt-3 mb-36 sm:grid-cols-4 items-center">
+      <div className="gap-2 mt-3 mb-36 sm:grid-cols-4 items-center cursor-pointer">
         {tabs.map((tab, i) => {
           return (
             <div

@@ -23,7 +23,7 @@ export const ReduxTab: React.FC = () => {
   //JSX
   return (
     <div className="w-screen h-screen flex flex-col">
-      <div className="flex justify-center items-center gap-x-32 my-8">
+      <div className="flex flex-col justify-center items-center gap-3 my-8">
         <span className="font-bold text-lg">{isPT ? 'Exemplo de redux:' : 'Redux example:'}</span>
 
         <button

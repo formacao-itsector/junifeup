@@ -12,20 +12,16 @@ export const useReactHooksHelper = () => {
     },
     {
       id: '2',
-      title: 'Quais os hooks mais utilizados?',
+      title: 'Quais os hooks mais utilizados do React?',
       children: (
         <div className="leading-snug pt-3 gap-3">
           <div className="mb-6">
-            <ul>
-              <li>React.useState</li>
-
-              <li>React.useEffect</li>
-
-              <li>React.useRef</li>
-
-              <li>React.useCallback</li>
-
-              <li>React.useMemo</li>
+            <ul className="leading-snug text-zinc-400 indent-1 pt-3">
+              <li>● useState</li>
+              <li>● useEffect</li>
+              <li>● useRef</li>
+              <li>● useCallback</li>
+              <li>● useMemo</li>
             </ul>
           </div>
         </div>
@@ -92,4 +88,3 @@ export const useReactHooksHelper = () => {
 
   return { articles, handleArticleVisibilityOnClick };
 };
-

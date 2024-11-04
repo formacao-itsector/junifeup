@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const FormExampleTab: React.FC = () => {
-  //JSX
   return (
     <div className="w-screen h-screen flex flex-col ">
       <div className="flex justify-center items-center">

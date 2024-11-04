@@ -20,7 +20,8 @@ message = 123;
 console.log(message);`;
 
 const TypescriptExample = `let message: string = 'hello-junifeup';
-message = 123; // throw Type 'number' is not assignable to type 'string'.
+message = 123; 
+// throw Type 'number' is not assignable to type 'string'.
 console.log(message);`;
 
 const ReactJavascriptComponentExample = `const Hello = (props) => {
