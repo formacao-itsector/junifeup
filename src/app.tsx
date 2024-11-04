@@ -27,7 +27,7 @@ const App = () => {
           <BrowserRouter>
             <Routes>
               <Route path={Paths.root} element={<Structure />}>
-                <Route path={Paths.repoInit} element={<RepoInit />} />
+                <Route path={Paths.reactIntro} element={<RepoInit />} />
                 <Route path={Paths.reactBasics} element={<ReactBasics />} />
                 <Route path={Paths.reactTypescript} element={<ReactTypescript />} />
                 <Route path={Paths.reactPropsState} element={<ReactPropsState />} />

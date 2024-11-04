@@ -3,7 +3,7 @@ export type Anything = any;
 
 export enum Paths {
   root = '/',
-  repoInit = 'repo-init',
+  reactIntro = 'react-intro',
   reactBasics = 'react-basics',
   reactTypescript = 'react-typescript',
   reactHooks = 'react-hooks',

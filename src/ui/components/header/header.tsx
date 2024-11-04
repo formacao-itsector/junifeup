@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
   const current_path = useCoreStore((state) => state.current_path);
 
   const titles: Record<Paths | string, { title: string; enabled: boolean }> = {
-    [Paths.repoInit]: { title: 'Intro', enabled: true },
+    [Paths.reactIntro]: { title: 'Intro', enabled: true },
     [Paths.reactHooks]: { title: 'Hooks', enabled: true },
     [Paths.reactPropsState]: { title: 'Props & State', enabled: true },
     [Paths.reactTypescript]: { title: 'Typescript', enabled: true },
