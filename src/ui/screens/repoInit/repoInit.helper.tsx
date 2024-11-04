@@ -1,7 +1,7 @@
-import React, { useCallback, useState } from 'react';
-import { BlogPostProps, BlogComponents, BlogTypography, CodeSnippet } from '@components';
-import { codeSnippets } from '@utils';
+import { BlogComponents, BlogPostProps, BlogTypography, CodeSnippet } from '@components';
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
+import { codeSnippets } from '@utils';
+import React, { useCallback, useState } from 'react';
 
 export const useRepoInitHelper = () => {
   const [articles, setArticles] = useState<BlogPostProps[]>([
@@ -17,7 +17,7 @@ export const useRepoInitHelper = () => {
       id: '2',
       title: 'Requisitos para instalação',
       content:
-        'O projeto foi criado com o Node.js v16.19.0 e com o npm v8.19.3, mas pode ser usada uma versão mais recente, se necessrio.',
+        'O projeto foi criado com o Node.js v20.18.2 e com o npm v10.8.2, mas pode ser usada uma versão mais recente, se necessrio.',
       children: (
         <>
           <div className="flex flex-row gap-6 my-3">
@@ -25,8 +25,8 @@ export const useRepoInitHelper = () => {
             <BlogComponents.Link href="https://www.npmjs.com/" label="Npmjs Docs" hasIcon />
           </div>
           <BlogComponents.Link
-            href="https://nodejs.org/download/release/v16.19.0/"
-            label="Download Node.js v16.19.0 e npm v8.19.3"
+            href="https://nodejs.org/download/release/v20.18.0/"
+            label="Download Node.js v20.18.2 e npm v10.8.2"
             hasIcon
           />
         </>
@@ -221,8 +221,8 @@ export const useRepoInitHelper = () => {
         'Para design o projeto vai recorrer ao Tailwindcss e MantineUI, mas podes utilizar uma outra ferramenta cujo estejas mais familiarizado.',
       children: (
         <div className="flex flex-row gap-6 mt-3">
-          <BlogComponents.Link href="https://mantine.dev" label="Tailwindcss" hasIcon />
-          <BlogComponents.Link href="familiarizado" label="MantineUI" hasIcon />
+          <BlogComponents.Link href="https://tailwindcss.com" label="Tailwindcss" hasIcon />
+          <BlogComponents.Link href="https://mantine.dev" label="MantineUI" hasIcon />
         </div>
       ),
       visibility: true,
@@ -256,3 +256,4 @@ export const useRepoInitHelper = () => {
 
   return { articles, handleArticleVisibilityOnClick };
 };
+

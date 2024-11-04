@@ -1,5 +1,5 @@
-import React, { useCallback, useState } from 'react';
 import { BlogComponents, BlogPostProps } from '@components';
+import React, { useCallback, useState } from 'react';
 
 export const useReactHooksHelper = () => {
   const [articles, setArticles] = useState<BlogPostProps[]>([
@@ -71,7 +71,7 @@ export const useReactHooksHelper = () => {
       children: (
         <>
           <div className="flex flex-row gap-6 my-3">
-            <BlogComponents.Link href="https://reactjs.org/docs/hooks-intro.html" label="React Hooks Docs" hasIcon />
+            <BlogComponents.Link href="https://react.dev/learn#using-hooks" label="React Hooks Docs" hasIcon />
           </div>
         </>
       ),
@@ -92,3 +92,4 @@ export const useReactHooksHelper = () => {
 
   return { articles, handleArticleVisibilityOnClick };
 };
+
