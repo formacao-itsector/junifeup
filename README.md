@@ -5,12 +5,12 @@ React com uma configuração simpista.
 
 ## Requisitos para instalação
 
-O projeto foi criado com o Node.js v16.19.0 e com o npm v8.19.3, mas pode ser usada uma versão mais recente, se
+O projeto foi criado com o Node.js v20.18.2 e com o npm v10.8.2, mas pode ser usada uma versão mais recente, se
 necessário.
 
 [ [https://nodejs.org/en](https://nodejs.org/en) ] [ [https://www.npmjs.com/](https://www.npmjs.com/) ]
 
-[ [Download Node.js v16.19.0 e npm v8.19.3 ](https://nodejs.org/download/release/v16.19.0/) ]
+[ [Download Node.js v20.18.0 e npm v10.8.2 ](https://nodejs.org/download/release/v20.18.0/) ]
 
 ## Arquitetura geral
 
