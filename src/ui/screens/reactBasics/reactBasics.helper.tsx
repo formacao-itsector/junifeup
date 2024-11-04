@@ -19,7 +19,7 @@ export const useReactBasicsHelper = () => {
           </div>
 
           <div className="mt-2">
-            <BlogTypography.Text content="Também deixamos um link para um video que fala sober as origens do React e a sua história." />
+            <BlogTypography.Text content="Também deixamos um link para um video que fala sobre as origens do React e a sua história." />
             <div className="mt-3">
               <BlogComponents.Link
                 href="https://youtu.be/8pDqJVdNa44?si=qNW9mnU1i9D9f4DR"
