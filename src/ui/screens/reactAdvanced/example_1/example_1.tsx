@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useMemo, useState } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import { Box, Button, Input, Space, Table } from '@mantine/core';
 import * as jsonTable from '../mock_table/table_10000.json';
 import { TableItems } from '../types';
@@ -15,22 +15,18 @@ export const Example_1 = () => {
       return prevState === 'OFF' ? 'ON' : 'OFF';
     });
 
-  const table = useMemo(() => {
-    return JSON.parse(JSON.stringify(jsonTable)).default;
-  }, [jsonTable]);
+  const table = JSON.parse(JSON.stringify(jsonTable)).default
 
-  const rows = useMemo(() => {
-    return table.map((element: TableItems) => (
+  const rows = table.map((element: TableItems) => (
       <tr key={element._id}>
-        <td>{element.name}</td>
-        <td>{element.age}</td>
-        <td>{element.gender}</td>
-        <td>{element.eyeColor}</td>
-        <td>{element.email}</td>
-        <td>{element.favoriteFruit}</td>
+          <td>{element.name}</td>
+          <td>{element.age}</td>
+          <td>{element.gender}</td>
+          <td>{element.eyeColor}</td>
+          <td>{element.email}</td>
+          <td>{element.favoriteFruit}</td>
       </tr>
-    ));
-  }, [table]);
+  ));
 
   return (
     <Box style={{ padding: '64px' }}>
