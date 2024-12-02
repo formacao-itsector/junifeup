@@ -10,7 +10,7 @@ const ProfileCard = styled.div`
   border-radius: 0.75rem;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #a78bfa;
+  border: 1px solid #818cf8;
 `;
 
 const ProfileInfo = styled.div`
@@ -23,8 +23,8 @@ const Avatar = styled.div`
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  background-color: #7c3aed;
-  border: 1px solid #a78bfa;
+  background-color: #6366f1;
+  border: 1px solid #818cf8;
 `;
 
 const TextBlock = styled.div`
@@ -45,7 +45,7 @@ const Handle = styled.p`
 const FollowButton = styled.div`
   width: 6rem;
   height: 2.5rem;
-  background-color: #7c3aed;
+  background-color: #4f46e5;
   border-radius: 9999px;
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@ const FollowButton = styled.div`
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #6d28d9;
+    background-color: #4338ca;
   }
 `;
 

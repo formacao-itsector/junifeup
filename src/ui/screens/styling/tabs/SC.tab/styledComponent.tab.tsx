@@ -12,7 +12,7 @@ export const SC = () => {
         <Avatar />
         <TextBlock>
           <User>ITSector</User>
-          <Handle>@JuniFEUP</Handle>
+          <Handle>@StyledComponent</Handle>
         </TextBlock>
       </ProfileInfo>
       <FollowButton onClick={handleFollowOnClick}>
