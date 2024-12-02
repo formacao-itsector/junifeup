@@ -10,6 +10,7 @@ export enum Paths {
   reactState = 'react-state',
   reactAdvanced = 'react-advanced',
   reactPropsState = 'react-propsState',
+  styling = 'styling',
 }
 
 export enum ThemeEnum {

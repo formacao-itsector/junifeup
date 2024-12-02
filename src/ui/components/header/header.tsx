@@ -13,6 +13,7 @@ export const Header: React.FC = () => {
     [Paths.reactPropsState]: { title: 'Props & State', enabled: true },
     [Paths.reactTypescript]: { title: 'Typescript', enabled: true },
     [Paths.reactState]: { title: 'State Management', enabled: true },
+    [Paths.styling]: { title: 'Styling', enabled: true },
     [Paths.reactBasics]: { title: 'React Basics', enabled: true },
     [Paths.reactAdvanced]: { title: 'Debug & Performance', enabled: true },
   };

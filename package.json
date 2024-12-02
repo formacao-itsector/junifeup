@@ -1,6 +1,6 @@
 {
   "name": "junifeup2023",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "/build"
   ],
@@ -25,6 +25,7 @@
     "react-router-dom": "6.27.0",
     "react-syntax-highlighter": "15.6.1",
     "redux": "4.2.1",
+    "styled-components": "^6.1.13",
     "typesafe-actions": "5.1.0",
     "zustand": "^4.3.2"
   },

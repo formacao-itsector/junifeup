@@ -8,6 +8,7 @@ const initialState: CoreStoreState = {
   current_path: Paths.root,
   language: LanguageEnum.EN,
   theme: ThemeEnum.Dark,
+  isFollowing: false,
 };
 
 const actions = (set: Anything): CoreStoreActions => {
@@ -38,11 +39,21 @@ const actions = (set: Anything): CoreStoreActions => {
       'switch_language'
     );
   };
+  const follow = () => {
+    set(
+      produce((state: CoreStoreState) => {
+        state.isFollowing = state?.isFollowing ? false : true;
+      }),
+      false,
+      'follow'
+    );
+  };
 
   return {
     set_current_path,
     switch_theme,
     switch_language,
+    follow,
   };
 };
 

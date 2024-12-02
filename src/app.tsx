@@ -10,6 +10,7 @@ import {
   Structure,
   RepoInit,
   ReactPropsState,
+  Styling,
 } from '@screens';
 import { PathListener } from '@components';
 import { Paths } from '@types';
@@ -34,6 +35,7 @@ const App = () => {
                 <Route path={Paths.reactHooks} element={<ReactHooks />} />
                 <Route path={Paths.reactState} element={<ReactState />} />
                 <Route path={Paths.reactAdvanced} element={<ReactAdvanced />} />
+                <Route path={Paths.styling} element={<Styling />} />
               </Route>
             </Routes>
             <PathListener />

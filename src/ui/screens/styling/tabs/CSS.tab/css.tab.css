@@ -1,0 +1,61 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 24rem;
+  height: 9rem;
+  padding: 1.5rem;
+  background-color: #27272a;
+  border-radius: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a78bfa;
+}
+
+.profile-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #7c3aed;
+  border: 1px solid #a78bfa;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.handle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.75rem;
+}
+
+.follow-button {
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #7c3aed;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.follow-button:hover {
+  background-color: #6d28d9;
+}
+
+.follow-text {
+  font-weight: bold;
+}
