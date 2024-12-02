@@ -10,10 +10,23 @@ export const useReactBasicsHelper = () => {
       content:
         'O React facilita a criação de UIs interativas. Facilita no design de cada state da nossa aplicação. O React também vai eficientemente atualizar e renderizar somente os componentes desejados de acordo com certas alterações',
       children: (
-        <div className="mt-2">
-          <BlogTypography.Text content="Em baixo vais encontrar alguns pontos de interesse sobre o React, mas recomendamos-te a explorares a documentação do React." />
-          <div className="mt-3">
-            <BlogComponents.Link href="https://reactjs.org/docs/getting-started.html" label="React Docs" hasIcon />
+        <div>
+          <div className="mt-2">
+            <BlogTypography.Text content="Em baixo vais encontrar alguns pontos de interesse sobre o React, mas recomendamos-te a explorares a documentação do React." />
+            <div className="mt-3">
+              <BlogComponents.Link href="https://reactjs.org/docs/getting-started.html" label="React Docs" hasIcon />
+            </div>
+          </div>
+
+          <div className="mt-2">
+            <BlogTypography.Text content="Também deixamos um link para um video que fala sobre as origens do React e a sua história." />
+            <div className="mt-3">
+              <BlogComponents.Link
+                href="https://youtu.be/8pDqJVdNa44?si=qNW9mnU1i9D9f4DR"
+                label="React History"
+                hasIcon
+              />
+            </div>
           </div>
         </div>
       ),
